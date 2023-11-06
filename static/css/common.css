@@ -2,13 +2,13 @@
 
 @font-face {
     font-family: "Anonymous Pro";
-    src: url(/fonts/AnonymousPro-Bold.ttf);
+    src: url(/static/fonts/AnonymousPro-Bold.ttf);
     font-weight: 700;
 }
 
 @font-face {
     font-family: "Anonymous Pro";
-    src: url(/fonts/AnonymousPro-Regular.ttf);
+    src: url(/static/fonts/AnonymousPro-Regular.ttf);
 }
 
 * {
@@ -129,24 +129,15 @@ p {
     .width__container {
       max-width: 764px;
     }
-  
-    .footer__nav {
-      flex-direction: column;
-    }
 }
-
 
 @media screen and (max-width: 800px) {
     .width__container {
       max-width: 370px;
     }
   
-    .header__nav {
-      display: none;
+    .header__content, .footer__content {
+        flex-direction: column;
+        gap: 24px;
     }
-  
-    .footer__content {
-      flex-direction: column;
-      gap: 16px;
-    }
-  }
+}

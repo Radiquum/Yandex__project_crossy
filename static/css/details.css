@@ -90,35 +90,36 @@
 
 @media screen and (max-width: 800px) {
     .width__container__details {
-        max-width: 274px;
+        max-width: 295px;
     }
 
     .sneaker__details img {
-        max-width: 274px; 
+        max-width: 295px; 
     }
 
     .sneaker__title {
-        font-size: 24px;
+        font-size: 32px;
     }
     
     .sneaker__text {
-        font-size: 18px;
+        font-size: 20px;
     }
 
     .sneaker__detail_container {
         flex-direction: column;
+        gap: 8px;
     }
 
     .sneaker__detail_about, .sneaker__detail_description {
-        width: 274px;
+        width: 295px;
     }
 
     .sneaker__detail_about p {
-        font-size: 14px;
+        font-size: 16px;
     }
 
     .sneaker__detail_description p {
-        font-size: 14px; 
+        font-size: 16px; 
     }
 
 }

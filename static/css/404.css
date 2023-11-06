@@ -1,0 +1,56 @@
+.error_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    min-height: 100dvh;
+}
+
+.ERROR {
+    position: relative;
+    background-color: white;
+    border-radius: 10px;
+    width: 512px;
+    height: 512px;
+}
+
+.ERROR h1 {
+    position: absolute;
+    color: gray;
+    font-size: 256px;
+    font-style: italic;
+    opacity: .5;
+
+    top: 132px;
+    width: 100%;
+    text-align: center;
+}
+
+.ERROR p {
+    position: absolute;
+    color: red;
+    font-size: 32px;
+    font-weight: 700;
+
+    top: 264px;
+    width: 100%;
+    text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+
+    .ERROR {
+        width: 372px;
+        height: 372px;
+    }
+
+    .ERROR h1 {
+        font-size: 128px;
+        top: 128px;
+    }
+
+    .ERROR p {
+        font-size: 24px;
+        top: 200px;
+    }
+}
