@@ -5,6 +5,14 @@
   font-weight: 700;
 }
 
+.sneaker__detail-link {
+  transition: transform .25s ease-in-out;
+}
+
+.sneaker__detail-link:where(:hover, :focus){
+  transform: translateY(-10px);
+}
+
 .sneaker__container {
   display: flex;
   flex-wrap: wrap;
