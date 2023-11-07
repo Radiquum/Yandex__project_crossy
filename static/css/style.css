@@ -51,7 +51,7 @@ p {
 .header__main {
   background: #fff;
   padding: 30px 0 16px;
-  border-bottom: solid 1px #a1a6b4;
+  border-bottom: solid 1px #676B73;
 }
 
 .header__content {
@@ -80,7 +80,7 @@ p {
 
 .footer__main {
   background: #121723;
-  padding: 32px 0 20px;
+  padding: 32px 0 24px;
   margin-top: 25px;
 }
 
@@ -109,7 +109,7 @@ p {
 }
 
 .footer__devider {
-  background: #e6e8ec66;
+  background: #676B73;
   height: 1px;
   margin: 32px auto 18px;
 }
@@ -279,6 +279,18 @@ p {
 @media screen and (max-width: 800px) {
   .width__container {
     max-width: 343px;
+  }
+
+  .header__main {
+    padding: 24px 0;
+  }
+
+  .footer_logo img {
+    width: 300px;
+  }
+
+  .footer__nav_link a, .header__nav_link a {
+    font-size: 20px;
   }
 
   .sneaker__card {
