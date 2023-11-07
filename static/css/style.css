@@ -242,6 +242,7 @@ p {
 }
 
 .sneaker__detail_about-header {
+  margin-top: 20px;
   font-size: 30px;
   font-weight: 400;
   padding-bottom: 24px;
@@ -316,6 +317,10 @@ p {
 
   .sneaker__detail_container {
       flex-direction: column;
+  }
+
+  .sneaker__detail_about-header {
+    margin-top: 0;
   }
 
   .sneaker__detail_about, .sneaker__detail_description {
